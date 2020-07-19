@@ -1,12 +1,35 @@
-let userName = prompt(`What is your Name?`)
+/*
+if (userName.toLowerCase() === 'tinashe') {
+  console.log(`welcome ${userName}`);
+} else {
 
-document.write(`<h1>Hi ${userName}</h1>`);
+  console.log(`Wrong User`);
+}
+*/
+//Conditional statement <> >= <= != !== !=== == ===
 
-let messages = `Hi ${userName} , we hope you are prepared for this journey`;
-messages += ` ${userName} this is just another suprise for ${userName}`;
+// && and Operator e.g if (20 < age && age < 30) used when both conditions need to pass
+// || or operator e,g if (agree === 'yes' || agree === 'y') used when only one condition is required to go through
+// functions have a semi-colon after the brances. {};
 
-let passphrase = (messages.length);
+function userMessage() {
 
-let randomNumber = Math.floor(Math.random() * 8) + 1;
+  userName = prompt(`What is your Name?`)
 
-console.log(`${userName} ${randomNumber}`);
+  document.write(`<h1>Hi ${userName}</h1>`);
+
+  let messages = `Hi ${userName} , we hope you are prepared for this journey`;
+  messages += ` ${userName} this is just another suprise for ${userName}`;
+
+  // let passphrase = (messages.length);
+
+  let randomNumber = Math.floor(Math.random() * 8) + 1;
+
+  console.log(`${userName} ${randomNumber}`);
+
+};
+
+console.log(userMessage());
+
+//LOOPS
+
