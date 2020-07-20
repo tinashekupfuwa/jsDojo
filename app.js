@@ -1,14 +1,8 @@
-// let tries;
+const myButton = document.getElementById('myButton');
+const myHeading = document.getElementById('myHeading');
+const myTextinput = document.getElementById('myTextInput');
 
+myButton.addEventListener('click', () => {
+  myHeading.style.color = myTextInput.value;
+});
 
-function randomNumber() {
-  let ranValue = Math.random + 1;
-  return ranValue;
-}
-// let i = 0;
-// while (i < 100) {
-//   document.write(`<span>${randomNumber()}</span>`)
-//   i++
-// }
-
-console.log(randomNumber());
