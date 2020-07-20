@@ -29,7 +29,51 @@ function userMessage() {
 
 };
 
-console.log(userMessage());
+// console.log(userMessage());
 
 //LOOPS
+
+function rnFigure() {
+  return Math.random(Math.floor) * 6;
+}
+
+let testCondition = 0;
+
+while (testCondition < 10) {
+  console.log(rnFigure());
+  testCondition++;
+}
+
+for (i = 0; i < 10; i++) {
+  document.write(`<h2>${rnFigure()}</h2>`);
+}
+
+//do loops
+
+/*do {
+
+} while ();
+*/
+
+//Arrays
+
+/*
+let userCatalog = [
+  vinyl,
+  cd,
+  tape,
+  VHS];
+*/
+
+//
+
+let userCatalog = {
+  firstname: 'Tinashe',
+  surname: 'Kupfuwa',
+  age: 29
+}
+
+console.log(typeof (userCatalog));
+
+console.log(userCatalog.firstname);
 
