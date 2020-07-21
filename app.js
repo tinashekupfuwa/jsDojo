@@ -1,8 +1,12 @@
-const myButton = document.getElementById('myButton');
-const myHeading = document.getElementById('myHeading');
-const myTextinput = document.getElementById('myTextInput');
+function say(something) {
+  console.log(something);
+}
 
-myButton.addEventListener('click', () => {
-  myHeading.style.color = myTextInput.value;
-});
+function exec(func, arg) {
+  func(arg);
+}
 
+
+setTimeout((word) => {
+  console.log(word);
+}, 5000, 'Hello Friend');

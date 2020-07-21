@@ -21,12 +21,13 @@ body{
 }
 
 #myButton{
-  width:10rem;
+  width:15rem;
   font-weight:bold;
-  height :2.5rem;
+  height :2rem;
   margin-top:10px;
   border: none;
-  background-color:#8F95D3 ;
+  background-color:#555d71 ;
+  color:#1c11c1;
 }
 
 #myArrangement{
@@ -40,8 +41,13 @@ body{
   height:2rem;
   text-align: center;
   font-size: 1.2rem;
+  border:1px #8F95D3 solid;
 }
 #myButton:hover{
   border:none;
   background-color:  #D3C4E3;
+}
+
+#myButton:focus{
+  border:none;
 }
