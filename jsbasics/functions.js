@@ -29,3 +29,4 @@ function square(number) {
 }
 
 console.log(square(4)); //parenthesis indicate a function e.g console.log() is a function.
+

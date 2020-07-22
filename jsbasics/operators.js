@@ -112,3 +112,78 @@ goodCreditScore = false;
 let applicationRefused = !eligibleForLoan;
 console.log('Eligible for loan:' + applicationRefused);
 console.log('Application has been denied', eligibleForLoan);
+
+/*Falsy
+undefined
+null
+0
+false
+''
+NaN
+*/
+
+//Anything that is not Falsy is Truthy
+
+//Short-circuiting 
+
+/*
+false || 1 || 2 || 3||
+
+This is called short-circuiting , asevery value after one is ignored.
+
+*/
+
+let userColor = undefined;
+let defaultColor = 'blue';
+let currentColor = userColor || defaultColor;
+
+console.log(currentColor); //red if theres a color input  and blue if there is no userColor.
+
+
+//Bitwise Operators.
+
+//1 = 00000001
+//1 = 00000011
+
+console.log(1 | 2); //Bitwise OR
+console.log(1 & 2); //Bitwise AND
+
+//Read ,Write, Execute 
+//00000100
+//00000010
+//00000001
+
+const readPermission = 4;
+const writePermission = 2;
+const executePermission = 1;
+
+let myPermission = 0;
+
+myPermission = myPermission | readPermission | writePermission;
+
+console.log(myPermission);
+
+let message = (myPermission & readPermission) ? 'yes' : 'no';
+
+console.log(message);
+
+//Operator Precedence.
+
+x = 2 + 3 + 4;
+
+console.log(x) // BODMAS.
+
+//Use parenthesis to determine how operators are applied.
+
+// x = (2+3)+4;
+
+
+//EXERCISE
+
+let a = 'red';
+let b = 'blue';
+
+console.log(a);
+console.log(b);
+
+
