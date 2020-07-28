@@ -18,10 +18,10 @@ let y = 3;
 
 console.log(x + y); /*Addition operator.These take two operands and produce a a value.(x+y) is referred to as an expression in Javascript. An expression is something that produces a value*/
 console.log(x - y); //subtraction
-console.log(x * y);//multiplication
-console.log(x / y);//division
-console.log(x % y);// remainder of divion
-console.log(x ** y);//to the power.x to the power of y. (exponiantion).
+console.log(x * y); //multiplication
+console.log(x / y); //division
+console.log(x % y); // remainder of divion
+console.log(x ** y); //to the power.x to the power of y. (exponiantion).
 
 //increment operators (++)
 console.log(x);
@@ -42,7 +42,7 @@ y = 5; // the equal sign(=) is called an assignment operator in programming.
 
 y += 4; // this is the same with y = y + 4
 
-y *= 4;// thi is the same with y = y * 4;
+y *= 4; // thi is the same with y = y * 4;
 
 //Compariosn operators
 
@@ -50,7 +50,7 @@ y *= 4;// thi is the same with y = y * 4;
 
 x = 1;
 // These are also refered to as Relational Operaters
-console.log(x > 0);// true
+console.log(x > 0); // true
 console.log(x >= 0); // greater than or equal to : true
 console.log(x < 0); // less than : false
 console.log(x <= 0); // less than or equal to : true
@@ -65,7 +65,7 @@ console.log(1 === 1); //Strict equality operator ,(These take into consideration
 console.log(1 == 1); //Loose equality operator, (These only care about the value)
 
 console.log(1 === 1); //false
-console.log('1' == 1);//true
+console.log('1' == 1); //true
 
 //Ternary Operator
 
@@ -129,7 +129,7 @@ NaN
 /*
 false || 1 || 2 || 3||
 
-This is called short-circuiting , asevery value after one is ignored.
+This is called short-circuiting , as every value after one is ignored.
 
 */
 
@@ -185,5 +185,3 @@ let b = 'blue';
 
 console.log(a);
 console.log(b);
-
-
